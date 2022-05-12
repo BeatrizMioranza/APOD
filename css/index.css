@@ -47,6 +47,7 @@ h1{
     align-items: center;
     color: aliceblue;
     font-family: monospace;
+    text-align: center;
 }
 .divApi{
     display: flex;
