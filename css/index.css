@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fotoFundo{
+    background-image: url("../photo-1419242902214-272b3f66ee7a.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}
+.divApi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.divTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

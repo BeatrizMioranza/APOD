@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./foguete.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Astronomy Picture of the Day</title>
+    <title>APOD NASA</title>
 </head>
-<body>
-    <header>
-        <h1>APOD NASA</h1>
-    </header>
-    <div>
-        <div id="divTitulo">
-        <h2>Foto astronômica do dia</h2>
-        <input id="inputData" type="date" placeholder="YYYY-MM-DD">
-        <button id="btnData" type="submit" value="btn">Enviar</button>
-       </div>
-       <div id="divApi">
 
-       </div>
-    </div>
+<body class="fotoFundo">
+        <header>
+            <h1>APOD NASA</h1>
+        </header>
+        <div>
+            <div id="divTitulo" class="divTitulo">
+                <h2>Foto astronômica do dia</h2>
+                <input id="inputData" type="date" placeholder="YYYY-MM-DD">
+                <button id="btnData" type="submit" value="btn">Enviar</button>
+            </div>
+            <div id="divApi" class="divApi">
+                <p id="day"></p>
+                <p id="titulo"></p>
+                <p id="explicacao"></p>
+                <img id="imgApi" src="" height="500" width="800">
+                <iframe src="" id="video" height="500" width="800"></iframe>
+            </div>
+        </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./index.js"></script>
 </body>
+
 </html>
