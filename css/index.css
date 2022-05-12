@@ -1,25 +1,75 @@
 *{
     margin: 0px;
     padding: 0px;
+
+}
+.apod{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: monospace;
+    padding: 10px 30px;
 }
 .fotoFundo{
-    background-image: url("../photo-1419242902214-272b3f66ee7a.avif");
+    background-image: url("../img/5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    width: 100vw;
 }
-.divApi{
+h1{
+    padding-bottom:10px;
+}
+.subTitulo{
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.89);
+}
+#inputData{
+    border: 2px solid rgba(240, 248, 255, 0.89);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+#btnData{
+    border: 2px solid rgba(240, 248, 255, 0.89);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+
+}
+.botao{
+    margin:30px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
     
 }
 .divTitulo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: aliceblue;
+    font-family: monospace;
+}
+.divApi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: monospace;
+    margin: 0% 20%;
+    font-size: 20px;
+    text-align: center;
     
 }
+.textofinal{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 280px;
+}
+
+
+

@@ -18,7 +18,7 @@ $("#btnData").click(function () {
 // Validar foto/vídeo
 function valida (resultado){
   if (resultado.media_type == 'image'){
-    $("#imgApi").attr("src",resultado.hdurl).show();
+    $("#imgApi").attr("src",resultado.url).show();
     $("#video").hide()
   }  else { (resultado.media_type == 'video')
     $("#video").attr("src", resultado.url).show();
